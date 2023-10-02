@@ -1,0 +1,49 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div div {
+    border: 2px solid gray;
+    margin: 5px;
+    max-width: 250px;
+
+}
+
+img{
+    max-width: 200px;
+    float: left;
+    padding: 15px;
+}
+
+div div:nth-child(1){
+    flex: 1;
+    min-width: 400px;
+}
+
+.button1{
+    height: 20px;
+    width: 100px;
+    background-color: gray;
+    color: white;
+
+}
+
+button{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+p, h2, img{
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+form {
+    background-color: gray;
+    width: 320px;
+    padding: 30px;
+    box-shadow: 8px 8px 5px #444
+}
+
+.button {
+    background-color: whitesmoke;
+    color: black;
+    width: 80px;
+    height: 30px;
+}
+
+.formIn{
+    width: 300px;
+}
+
+div input {
+    width: 145px;
+    height: 20px;
+}
+
+div select {
+    height: 30px;
+}
+
+.star{
+    color: red;
+}
+
+div input:hover{
+    box-shadow: 8px 8px 5px #444
+}
+
+div select:hover{
+    box-shadow: 8px 8px 5px #444
+}
+
+.textBox{
+    width: 300px;
+    height: 300px;
+}
+
+input:hover{
+    box-shadow: 8px 8px 5px #444
+}

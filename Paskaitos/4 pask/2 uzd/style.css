@@ -1,0 +1,21 @@
+.red_text{
+    color: red;
+}
+
+.black_background{
+    background-color: black;
+}
+
+.green_text{
+    color: green;
+}
+
+.white_text{
+    color: white;
+}
+
+.green_text_white_back{
+    color: green;
+    background-color: white;
+    font-size: 2rem;
+}

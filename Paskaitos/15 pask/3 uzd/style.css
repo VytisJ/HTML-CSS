@@ -1,0 +1,50 @@
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    height: 300px;
+    width: 10px;
+    font-size: 3em;
+    display: flex;
+    border: 1px solid gray;
+    width: fit-content;
+    block-size: fit-content;
+}
+
+ ul li{
+    color: white;
+    list-style: none;
+    width: fit-content;
+    block-size: fit-content;
+    display: flex;
+}
+
+
+.fig1 li{
+    background-color: orange;
+    flex-flow: column;
+}
+
+.fig2 li{
+    background-color: blue;
+}
+
+.fig3 li{
+    background-color: brown;
+}
+
+.fig4 li{
+    background-color: greenyellow;
+}
+
+.fig5 li{
+    background-color: purple;
+}
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+    padding: 0;
+    border: black solid 1px;
+}
+
+li{
+    font-size: 1.75rem;
+    padding: 0.3rem;
+}
+
+li:first-child{
+    background-color: black;
+    color: white;
+}
+
+li:last-child{
+    background-color: black;
+    color: white;
+}
+
+li:nth-of-type(2n){
+    background-color: white;
+}

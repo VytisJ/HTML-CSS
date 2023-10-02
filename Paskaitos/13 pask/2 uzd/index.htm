@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="firstName">Full name <span class="star">*</span></label><br>
+            <input type="text" id="firstName" name="firstName" placeholder="First">
+            <input type="text" id="firstName" name="firstName" placeholder="Last">
+        </div><br>
+
+        <div>
+            <label for="eMail">Email<span class="star">*</span></label><br>
+            <input class="formIn" type="email" id="eMail" name="eMail">
+        </div><br>
+
+        <div>
+            <label for="subject">Subject</label><br>
+            <select class="formIn" name="subject" id="subject">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+        </div><br>
+
+        <div>
+            <label for="text">Your Message</label><br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div><br>
+
+        <input class="button" type="submit" value="Submit">
+
+    </form>
+
+
+
+</body>
+</html>

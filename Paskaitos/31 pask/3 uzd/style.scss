@@ -1,0 +1,20 @@
+$header-background: darkgreen;
+
+
+
+header{
+    background-color: $header-background;
+    min-height: 10rem;
+    text-align: center;
+    background-color: darkgreen;
+    min-height: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+header button{
+    background: greenyellow;
+    margin: 0.2rem;
+}

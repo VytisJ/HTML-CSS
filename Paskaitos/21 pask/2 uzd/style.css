@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    grid-auto-rows: 5;
+    height: 100vh;
+    margin: 0;
+    gap: 0.5em; 
+}
+
+div{
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: orange;
+}
+
+.box1{
+    grid-column: 1/5;
+}
+
+.box2{
+    grid-row: 2/6;
+}
+
+.box4{
+    grid-column: 3/5;
+}
+
+.box5{
+    grid-column: 2/4;
+}
+
+.box10{
+    grid-column: 2/5;
+}

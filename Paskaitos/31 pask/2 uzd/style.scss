@@ -1,0 +1,36 @@
+$component-one: 1.4rem;
+$component-two: 1.7rem;
+$component-three: 1.2rem;
+
+.first-component{
+    .text{font-size: $component-one;}
+    .button{font-size: $component-two;}
+    @at-root .second-component{
+        .text{font-size: $component-three;}
+        .button{font-size: $component-one;}
+    }
+}
+
+
+
+
+.input {
+    border-radius: 3px;  
+    border: 4px solid #ddd;  
+    color: #555;  
+    font-size: 17px;  
+    padding: 10px 20px;  
+    display: inline-block;  
+    outline: 0;
+}
+.error-input {  
+    @extend .input;
+    border: 4px solid #e74c3c;
+}
+
+body {  
+    text-align: center;  
+    padding-top: 100px;
+}
+
+

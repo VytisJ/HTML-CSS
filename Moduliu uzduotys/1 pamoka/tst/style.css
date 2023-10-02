@@ -1,0 +1,16 @@
+div{
+    width: 100px;
+    height:100px;
+    margin: 5rem;
+    background: red;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div:nth-child(1){
+    background: blue;
+}
+

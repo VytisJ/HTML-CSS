@@ -1,0 +1,36 @@
+.shape{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 0.3rem;
+    flex: 1;
+    min-width: 50px;
+}
+
+.mainFlex{
+    display: flex;
+    background-color: blue;
+}
+
+.inlineFlex{
+    display: inline-flex;
+}
+
+.container {
+    display:flex;
+}
+
+.item{
+    flex: 1;
+    min-width: 50px;
+}
+
+
+.tarpai{
+    margin: 20px;
+}
+
+
+
+
+

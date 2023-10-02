@@ -1,0 +1,14 @@
+.firstBox{
+    display: inline-block;
+}
+
+.secondBox{
+    display: block;
+}
+
+.shape{
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    background-color: yellow;
+}

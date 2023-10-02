@@ -1,0 +1,79 @@
+body{
+    background-image: url(image/leaves.png);
+}
+.wrapper{
+    max-width: 50rem;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+header {
+    background: #b8cb21;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    height: 100px;
+}
+
+header nav a{
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 1.2em;
+}
+header nav a:last-child{
+    margin-right: 0px;
+}
+
+header nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main article:first-child{
+    flex: 2;
+    padding-right: 0.5rem;
+}
+
+main article:last-child{
+    flex: 3;
+    padding-left: 0.5rem;
+}
+
+.button{
+    text-align: right;
+    margin-right: 0.5rem;
+}
+
+main article img{
+    max-width: 50%;
+    float: left;
+    padding-right: 0.4rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+}
+
+
+
+
+
+
+
+
+

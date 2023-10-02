@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: left;
+}
+
+header nav{
+    background-color: brown;
+    text-align: right;
+    padding: 20px;
+}
+
+header nav a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+

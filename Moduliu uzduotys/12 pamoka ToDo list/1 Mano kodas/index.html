@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Best <span class="blue">ToDo</span> App</h1>
+            <nav class="nav1">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </nav>
+        </header>
+
+
+        <main>
+            <form class="form task-form">
+                <h4>Your tasks</h4>
+                <div class="form-control">
+                    <input type="text" name="name" class="form-input task-input" placeholder="e.g. wash dishes" />
+                    <button type="submit" class="btn submit-btn">Add</button>
+                </div>
+                <small class="form-alert">There was an error</small>
+            </form>
+
+            <section  class="tasks-container">
+                <div class="tasks">
+                    <div class="single-task">
+                        <h5><i class="far fa-check-circle"></i>Take out trashes</h5>
+                        <div class="task-links">
+                            <a href="tasks.html" class="edit-link">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <button type="button" class="delete-btn" data-id="123">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                        </div>
+                    </div>
+                    <div class="single-task task-completed">
+                        <h5>
+                            <span><i class="far fa-check-circle"></i></span>Walk the dog
+                        </h5>
+                        <div class="task-links">
+                            <a href="tasks.html" class="edit-link">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <button type="button" class="delete-btn" data-id="123"><i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

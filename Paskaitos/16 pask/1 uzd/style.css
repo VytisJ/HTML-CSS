@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+
+.cont1 div{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cont1{
+    display:flex
+}
+
+.cont1 div:nth-child(1){
+    order: 2;
+}
+
+.cont1 div:nth-child(2){
+    order: 3;
+}
+.cont1 div:nth-child(3){
+    order: 1;
+}
+.cont1 div:nth-child(5){
+    order: 4;
+}
+
+.item1{
+    flex: 3;
+    order: 1;
+}
+
+.item2{
+    flex: 1;
+    order: 2;
+}
+

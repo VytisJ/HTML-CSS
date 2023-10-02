@@ -1,0 +1,34 @@
+
+.boxGrey{
+    height: 150px;
+    width: 150px;
+    background-color: lightslategray;
+    position: static;
+    border: black solid 1px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.boxRed{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: static;
+    border: black solid 1px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+    top: 40px; left: 40px;
+}
+
+.boxBlue{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    position: static;
+    border: black solid 1px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 40px; left: 40px;
+}

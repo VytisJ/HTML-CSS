@@ -1,0 +1,13 @@
+div:nth-child(1n+1){
+    background-color: red;
+}
+
+div:nth-child(2n+1){
+    background-color: blue;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: white;
+}

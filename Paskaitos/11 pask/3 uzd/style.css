@@ -1,0 +1,21 @@
+nav{
+    background-color: lightsalmon;
+    height: 80px;
+    font-size: 2rem;
+    line-height: 80px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-top: 80px;
+}

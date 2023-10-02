@@ -1,0 +1,30 @@
+div{
+    background-color: lightgray;
+    margin: 5px;
+}
+
+section div:nth-child(2n+1){
+    background-color:gray;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
+.wrapper2{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr)
+}
+
+.wrapper3{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%
+}
+
+.wrapper4{
+    display: grid;
+    grid-template-columns: repeat(4, 25%)
+}
+

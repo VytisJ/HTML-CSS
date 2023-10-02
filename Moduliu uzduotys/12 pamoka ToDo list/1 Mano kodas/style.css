@@ -1,0 +1,69 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: lightgrey;
+    margin: 0;
+}
+
+header{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 6px -6px #222;
+}
+
+.blue{
+    color: #58239c;
+}
+
+header h1{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #58239c;
+    color: white;
+}
+
+.fa-twitter {
+    background: #58239c;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #58239c;
+    color: white;
+}
+
+.fa:last-child{
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+

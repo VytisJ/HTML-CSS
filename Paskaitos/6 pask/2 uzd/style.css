@@ -1,0 +1,19 @@
+p{
+    color: green;
+    border: double 5px blue;
+}
+
+.yellow_shape{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    border-color: red;
+    border-style: outset;
+    border-width: 10px;
+    border-radius: 15%;
+}
+
+img{
+    width: 200px;
+    border: dashed 15px black;
+}

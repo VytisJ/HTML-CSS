@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Sveiki atvykę</h2>
+  <form>
+    <p>
+      <label>Vartotojo vardas : <input type="text" /></label>
+    </p>
+    <p>
+      <label>Slaptažodis : <input type="password" /></label>
+    </p>
+    <p>
+       <button type="submit">Prisijungti</button>
+    </p>
+    <p>
+        <h2>Jūsų lytis yra:</h2>
+        <form>
+          <label>Vyras<input type="radio" name="lytis" value="vyras" /></label>
+          <label>Moteris<input type="radio" name="lytis" value="moteris" /></label>
+          <label>Nenoriu atsakyti<input type="radio" name="lytis" value="non" /></label>
+        </form>
+    </p>
+    <p>
+        <h2>Kokias kalbas mokate:</h2>
+        <form>
+          <ul style="list-style-type:none;">
+            <li><input type="checkbox" name="kalba" value="lietuviu" />Lietuvių</li>
+            <li><input type="checkbox" name="kalba" value="anglu" />Anglų</li>
+            <li><input type="checkbox" name="kalba" value="rusu" />Rusų</li>
+            <li><input type="checkbox" name="kalba" value="vokieciu" />Vokiečių</li>
+            <li><input type="checkbox" name="kalba" value="kita" />Kita</li>
+          </ul>
+        </form>
+    </p>
+    <p>
+        <h2>Pasirinkite miestą</h2>
+        <form>
+          <select name="miestas">
+            <option value="vilnius">Vilnius</option>
+            <option value="kaunas">Kaunas</option>
+            <option value="klaipeda">Klaipėda</option>
+            <option value="siauliai">Šiauliai</option>
+            <option value="panevezys">Panevėžys</option>
+          </select>
+        </form>
+    </p>
+    <p>
+        <h2>Mums svarbi jūsų nuomonė</h2>
+        <form>
+          <textarea name="zinute" rows="3" cols="40">Jūsų komentaras</textarea>
+        </form>
+    </p>
+  </form>
+</body>
+</html>

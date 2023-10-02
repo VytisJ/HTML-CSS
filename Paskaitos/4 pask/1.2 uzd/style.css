@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+
+div{
+    color: rgb(50, 169, 163);
+}
+
+p{
+    color: hsl(295, 54%, 43%);
+}
+
+a{
+    color: #4ea932;
+}
+
+span{
+    color: #4ea932;
+}

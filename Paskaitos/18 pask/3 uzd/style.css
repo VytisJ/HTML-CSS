@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+.container div{
+    background: purple;
+    border: solid 1px black;
+    border-radius: 15px 50px;
+    margin: 0.5rem;
+    font-size: 5rem;
+    color: azure;
+    text-align: center;
+    padding: 60px;
+}
+
+.item-a{
+    grid-area: header;
+}
+
+.item-b{
+    grid-area: sidebar;
+}
+
+.item-c{
+    grid-area: con;
+}
+
+.item-d{
+    grid-area: foot;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header header header header header header"
+    "sidebar sidebar sidebar con con con con con con"
+    ". . . foot foot foot foot foot foot";
+}

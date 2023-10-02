@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.fig1 div, .fig2 div, .fig3 div, .fig4 div, .fig5 div, .fig6 div{
+    min-width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: azure;
+    text-align: center;
+    line-height: 50px;
+    align-items:center;
+}
+
+.fig1 div{
+    background-color: orange;
+}
+
+.fig2 div{
+    background-color: yellow;
+}
+
+.fig3 div{
+    background-color: blue;
+}
+
+.fig4 div{
+    background-color: greenyellow;
+}
+
+.fig5 div{
+    background-color: palevioletred;
+}
+
+.fig6 div{
+    background-color: green;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}

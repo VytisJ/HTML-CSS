@@ -1,0 +1,27 @@
+
+.contFlex{
+    display: flex;
+}
+.contFlex div{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    color: azure;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    align-items:center;
+}
+
+.rowrewFlex{
+    flex-direction: row-reverse;
+}
+
+.rowCol{
+    flex-direction: column;
+}
+
+.rewCol{
+    flex-direction: column-reverse;
+}
+

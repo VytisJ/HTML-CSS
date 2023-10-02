@@ -1,0 +1,459 @@
+html{
+  margin: 0;
+  background-color: #eeeeee;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: #ffffff;
+  border-radius: 15px;
+  max-width: 428px;
+  min-width: 428px;
+  height: 3200px;
+  padding-left: 32px;
+  margin-top: 513px;
+  
+}
+
+.menuIcon img{
+  width: 30px;
+  padding-right: 32px;
+}
+
+.navMobile{
+  display: flex;
+  align-items: center;
+  padding-top: 34px;
+  margin-bottom: 58px;
+}
+
+header div{
+  justify-content: space-between;
+}
+
+.launchingSoon{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  padding-bottom: 80px;
+}
+
+.launchingsoonImg{
+  background: url(assets/graphic.svg) no-repeat;
+  background-size: 25rem;
+  margin-left: -2.3rem;
+  margin-top: -80px;
+}
+
+.launchingText {
+width: 274px;
+height: 410px;
+top: 148px;
+}
+
+.launchingText p{
+  padding-right: 0;
+}
+
+h4{
+  color: #ff3998;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+}
+
+h2{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58.09px;
+  color: #111111;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+  
+
+
+p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #555555;
+  padding-right: 32px;
+}
+
+h3{
+  margin-right: 32px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.41px;
+}
+
+
+button{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #111111;
+  text-decoration: none;
+  height: 75px;
+  width: 188px;
+  border-radius: 100px;
+  border: 4px solid;
+  border-color: #FF3939 #FF3998 #FF8139;
+  background-color: #ffffff;
+}
+
+.freeNfts{
+  background: url(assets/background.svg) no-repeat;
+  margin-left: -50px;
+  height: 326px;
+  width: 100% auto;
+}
+
+.freenftText{
+  padding-left: 50px;
+}
+
+
+.freeNfts h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 122px;
+}
+
+.freeNfts span{
+  margin: 0;
+  color: #111111;
+  margin-bottom: 32px;
+}
+
+
+.compLogos{
+  margin-top: 32px;
+  height: 117px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: auto;
+  justify-content: center;
+}
+
+.boomLogo{
+  background: url(assets/companies/1-mob.png) no-repeat;
+}
+.blimpLogo{
+  background: url(assets/companies/2.svg) no-repeat;
+}
+.qrcoLogo{
+  background: url(assets/companies/3.svg) no-repeat;
+}
+.opendoorLogo{
+  background: url(assets/companies/4.svg) no-repeat;
+}
+.dropletLogo{
+  background: url(assets/companies/5.svg) no-repeat;
+}
+
+.opendoorLogo{
+  display: none;
+  /*On mobile website version logo are hidden*/
+}
+
+.lesuperRare h3{
+  margin-bottom: 0;
+}
+
+.nftLine{
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  margin-top: 40px;
+  gap: 40px;
+  margin-bottom: 92px;
+}
+
+.nftCard{
+  background-color: #eeee;
+  min-width: 290px;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.purpleMan{
+  background: url(assets/ntfs/ntf-1.svg) no-repeat;
+}
+
+.beigeNft{
+  background: url(assets/ntfs/nft-2.svg) no-repeat;
+}
+
+.redmanNft{
+  background: url(assets/ntfs/ntf-3.svg) no-repeat;
+}
+
+.greenNft{
+  background: url(assets/ntfs/ntf-4.svg) no-repeat;
+}
+
+.imgCard{
+  width: 100%;
+  height: 268px;
+}
+
+.cardText{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 24px;
+  padding-right: 0;
+  margin-top: 10px ;
+}
+
+.orangeText{
+  color: orange;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.blackText{
+  color: #111111;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.greycardText{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.topbidText{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.ethLogo{
+  display: flex;
+  margin-top: 0;
+}
+
+.topBid{
+  text-align: right;
+  align-items: start;
+}
+
+.ethLogo img{
+  width: 13px;
+  margin-right: 8px;
+}
+
+
+.dividerLine{
+  height: 2px;
+  background-color: #eeeeee;
+  border: none;
+  margin: 0;
+  margin-right: -2rem;
+  margin-left: -2rem;
+
+}
+
+.launchingSoonbt{
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: auto;
+  margin-top: 64px;
+  height: 628px;
+
+}
+
+.launchingsoonImgbt{
+  background: url(assets/upsell-footer-image.svg) no-repeat;
+  background-size: 14rem;
+  margin-left: -1rem;
+  margin-top: 6rem;
+}
+
+.launchingText {
+width: 274px;
+height: 410px;
+top: 148px;
+}
+
+.launchingText p{
+  margin-top: 32px;
+  padding-right: 0;
+}
+
+.socialLogos ul{
+  list-style: none;
+  display: flex;
+  color: #999999;
+  height: 18px;
+  padding-left: 0;
+  margin-top: 32px;
+  margin-bottom: 70px;
+}
+
+.socialLogos ul li{
+  padding-right: 16px; 
+}
+
+footer nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 88px;
+  
+}
+
+footer nav ul{
+  padding-left: 0;
+}
+
+footer nav ul li{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #555555;
+  line-height: 19.36px;
+  margin-top: 0.8rem;
+}
+
+footer nav li a{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #555555;
+  line-height: 19.36px;
+}
+
+footer nav ul li:nth-child(1){
+  margin-bottom: 1.2rem;
+}
+
+.navMobile nav{
+  display: none;
+  /*On mobile website version navigation selections are hidden*/
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    min-height: 3300px;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+  }
+
+  .menuIcon{
+    display: none;
+  }
+
+  .navMobile div nav{
+    display: contents;
+  }
+
+  .navMobile div nav ul{
+    display: flex;
+  }
+
+  .navMobile div nav ul li{
+    list-style-type: none;
+  }
+  .navMobile div nav ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    padding-right: 28px;
+    color: #555555;
+  }
+
+  .menuList nav ul li a span{
+    color: #ff3998;
+  }
+
+  .launchingSoon{
+    margin-top: 188px;
+  }
+
+  .launchingText{
+    width: 620px;
+    height: 519px;
+  }
+
+  h2{
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 116px;
+  }
+
+  .launchingsoonImg{
+    background: url(assets/graphic.svg) no-repeat;
+    background-size: 40rem;
+    margin-left: -240px;
+    margin-top: -50px;
+  }
+
+  .freeNfts{
+    margin-left: 0px;
+  }
+
+  .freenftText p br{
+    display: none;
+  }
+
+  .freenftText{
+    padding-top: 40px;
+  }
+
+  .opendoorLogo{
+    display: flex;
+  }
+
+  .compLogos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-right: 80px;
+    padding-top: 80px;
+  }
+
+  .launchingTextbt{
+    padding-bottom: 150px;
+  }
+
+  .launchingSoonbt{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 80px;
+    
+  }
+  
+  .launchingsoonImgbt{
+    background: url(assets/upsell-footer-image.svg) no-repeat;
+    background-size: 15rem;
+    margin-left: 12rem;
+    margin-top: 0rem;
+  }
+
+  .footerDeskt{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+
+

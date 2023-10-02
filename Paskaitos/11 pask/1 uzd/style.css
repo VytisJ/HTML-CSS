@@ -1,0 +1,29 @@
+table{
+    border: purple solid 2px;
+    width: 100%;
+    text-align: center
+}
+
+th, td{
+    font-size: 1.75rem;
+    padding: 0.3rem;
+}
+
+.firstStyle{
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.secondStyle{
+    font-family: 'Anton', sans-serif;
+}
+
+.thirdStyle{
+    font-family: 'Mogra', cursive;
+}
+
+.fourthStyle{
+    font-family: 'Rubik Puddles', cursive;
+}
+
+
+

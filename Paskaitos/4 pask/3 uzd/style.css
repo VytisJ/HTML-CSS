@@ -1,0 +1,24 @@
+.shape_size{
+    height: 20px;
+    width: 100px;
+}
+
+.yellow_shape{
+    background-color: yellow;
+}
+
+.green_shape{
+    background-color: green;
+}
+
+.red_shape{
+    background-color: red;
+}
+
+.black_shape{
+    background-color: black;
+}
+
+.white_shape{
+    background-color: white;
+}
